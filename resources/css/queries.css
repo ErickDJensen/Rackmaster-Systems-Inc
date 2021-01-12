@@ -1,0 +1,152 @@
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    header {
+        height: 20em;
+        background-attachment: inherit;
+    }
+
+    .rack-text-box {
+        position: absolute;
+        height: 20px;
+        width: auto;
+        top: 30%;
+        left: 5%;
+        font-size: .7em;
+        color: white;
+    }
+
+    .topnav a:hover {
+        border-bottom: 0px;
+    }
+
+
+    p {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .logo1 {
+        position: static;
+        display: block;
+        width: 55%;
+        height: auto;
+        margin: 40px auto;
+    }
+
+    .logo2 {
+        position: static;
+        display: block;
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .caption {
+        position: static;
+        display: block;
+        text-align: center;
+        color: blue;
+        text-transform: capitalize;
+    }
+}
+
+/* Small phones to small tablets: up to 480px */
+@media only screen and (max-width: 480px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row { padding: 0 4%; }
+
+    header {
+        height: 15em;
+        background-attachment: inherit;
+    }
+
+    .rack-text-box {
+        position: absolute;
+        height: 20px;
+        width: auto;
+        top: 10%;
+        left: 10%;
+        font-size: .6em;
+        color: white;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(73, 72, 72); /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, rgb(73, 72, 72), rgb(73, 72, 72));
+        height: 40px;
+    }
+
+    .topnav a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 1.1em;
+    }
+
+    .topnav a:first-child {
+        margin-right: 20px;
+    }
+
+    .topnav a:hover {
+        border-bottom: 0px;
+    }
+    
+
+    .company-info {
+          background-color: white;
+          padding: 100px 0 50px;
+
+    }
+    
+    .header--image {
+          display: none;
+    }
+
+    .RMI_logo {
+        position: static;
+        display: block;
+        width: 100%;
+        height: auto;  
+        margin-top: -40px;      
+    }
+
+    p {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .logo1 {
+        position: static;
+        display: block;
+        height: auto;
+    }
+
+    .logo2 {
+        position: static;
+        display: block;
+        height: auto;
+    }
+
+    .caption {
+        position: static;
+        display: block;
+        text-align: center;
+        color: blue;
+        text-transform: capitalize;
+    }
+
+    footer {
+        height: 9em;
+    }
+
+    footer ul {
+        margin: auto;
+    }
+
+}

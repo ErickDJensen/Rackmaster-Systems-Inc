@@ -1,0 +1,183 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+header {
+    position: relative;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("img/motherboard.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("img/motherboard.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 32em;
+    background-attachment: fixed;
+}
+
+.rack-text-box {
+    position: absolute;
+    color: white;
+    font-size: .9em;
+    top: 35%;
+    left: 5%;
+}
+
+.rack-text-box a:link {
+    text-decoration: none;
+}
+
+span {
+    text-transform: lowercase;
+    color: white;
+}
+
+/* ----------------------------------------------- */
+/* MAIN NAV */
+/* ----------------------------------------------- */
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(73, 72, 72); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, white 25% , rgb(73, 72, 72));
+    height: 80px;
+    border-bottom: 2px solid red;
+  }
+  
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 30px 20px 5px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 2px solid red;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .header--image {
+      position: relative;
+      top: -80px;
+      left: 0;
+      width: 22%;
+      height: auto;
+  }
+
+  /* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+
+
+/* ----------------------------------------------- */
+/* COMPANY INFO SECTION */
+/* ----------------------------------------------- */
+
+.company-info {
+    background-color: #f4f4f4;
+    padding: 160px 0 120px;
+    position: relative;
+}
+
+.RMI_logo {
+    display: none;
+}
+
+p {
+    width: 50%;
+    text-align: justify;
+    padding: 10px;
+}
+
+.logo1 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+.logo2 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 52%;
+    left: 65%;
+}
+
+.caption {
+    position: absolute;
+    top: 80%;
+    left: 67%;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 25px;
+    font-size: 1em;
+    height: 9em;
+}
+
+footer ul {
+    list-style: none;
+    color: #888;
+    text-align: center;
+    margin: 30px auto;
+}
+
+footer a {
+    color: rgb(223, 81, 81);
+}
+
+
