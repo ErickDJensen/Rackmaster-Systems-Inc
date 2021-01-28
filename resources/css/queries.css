@@ -20,8 +20,27 @@
         border-bottom: 0px;
     }
 
+    .column_1 {
+        position: static;
+        float: none;
+        display: block;
+    }
 
-    p {
+    .column_2 {
+        position: static;
+        float: none;
+        display: block;
+    }
+
+    .video {
+        left: 5%;
+        top: 20%;
+        height:50%;
+        width:90%;
+    }
+    
+
+    .company-info p {
         width: 95%;
         margin: 0 auto;
     }
@@ -96,12 +115,40 @@
     .topnav a:hover {
         border-bottom: 0px;
     }
-    
+
+    .company-video {
+        background-color: white;
+        position: relative;
+        height: 400px;
+    }
+
+    .column_1 {
+        display: block;
+        width: 100%;
+    }
+
+    .column_2 {
+        display: block;
+        width: 100%;
+    }
+
+    .column_2 h2, p{
+        width: 95%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .video {
+        left: 0;
+        top: 0;
+        height: 60%;
+        width: 96%;
+        margin-left: 2%;
+    }
 
     .company-info {
           background-color: white;
           padding: 100px 0 50px;
-
     }
     
     .header--image {
@@ -116,7 +163,7 @@
         margin-top: -40px;      
     }
 
-    p {
+    .company-info p {
         width: 95%;
         margin: 0 auto;
     }
@@ -148,5 +195,14 @@
     footer ul {
         margin: auto;
     }
+
+    .fa-twitter:hover {
+        color: #888
+    }
+    
+    .fa-linkedin-in:hover {
+        color: #888;
+    }
+    
 
 }
