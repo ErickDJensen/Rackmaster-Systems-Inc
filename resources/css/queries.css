@@ -20,25 +20,32 @@
         border-bottom: 0px;
     }
 
-    .column_1 {
-        position: static;
-        float: none;
-        display: block;
+    .company-video {
+        background-color: white;
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        padding: 125px 2% 0 2%;
     }
 
-    .column_2 {
-        position: static;
-        float: none;
-        display: block;
+    .company-video h2, 
+    p, 
+    iframe {
+        padding: 0;
     }
 
-    .video {
-        left: 5%;
-        top: 20%;
-        height: 300px;
-        width:90%;
+    .company-video div {
+        display: block;
+        order: 1;
     }
-    
+
+    .company-video iframe {
+        display: block;
+        height: 400px;
+        width: 85%;
+        order: 2;
+        margin: 20px auto;
+    }    
 
     .company-info p {
         width: 95%;
@@ -94,7 +101,7 @@
 
     .topnav {
         overflow: hidden;
-        background-color: rgb(73, 72, 72); /* For browsers that do not support gradients */
+        background-color: rgb(73, 72, 72);
         background-image: linear-gradient(to right, rgb(73, 72, 72), rgb(73, 72, 72));
         height: 40px;
     }
@@ -118,32 +125,29 @@
 
     .company-video {
         background-color: white;
-        position: relative;
-        height: 400px;
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        padding: 65px 2% 0 2%;
     }
 
-    .column_1 {
+    .company-video h2, 
+    p, 
+    iframe {
+        padding: 0;
+    }
+
+    .company-video div {
         display: block;
-        width: 100%;
+        order: 1;
     }
 
-    .column_2 {
+    .company-video iframe {
         display: block;
-        width: 100%;
-    }
-
-    .column_2 h2, p{
+        height: 200px;
         width: 95%;
-        margin: 0 auto;
-        font-size: 1em;
-    }
-
-    .video {
-        left: 0;
-        top: 0;
-        height: 60%;
-        width: 96%;
-        margin-left: 2%;
+        order: 2;
+        margin-top: 20px auto;
     }
 
     .company-info {
