@@ -17,10 +17,6 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 /* ----------------------------------------------- */
 /* HEADER */
@@ -150,53 +146,61 @@ p {
     height: 325px;
 }
 
+
 /* ----------------------------------------------- */
 /* COMPANY INFO SECTION */
 /* ----------------------------------------------- */
 
 .company-info {
     background-color: #f4f4f4;
-    padding: 160px 0 120px;
-    position: relative;
+    padding: 160px 0 120px 0;
+    display: flex;
 }
 
 .RMI_logo {
     display: none;
 }
 
+.row {
+    display: flex;
+    margin: auto;
+}
+
+.column {
+    flex: 50%;
+    padding: 20px;
+  }
+
 .company-info p {
-    width: 50%;
     text-align: justify;
     padding: 10px;
-    margin-left: 2%;
     font-size: 1em;
 }
 
 
 .logo1 {
-    width: 40%;
+    display: block;
+    width: 40vw;
     height: auto;
-    position: absolute;
-    top: 20%;
-    left: 55%;
+    margin: 40px auto 0;
 }
 
 .logo2 {
-    width: 300px;
+    display: block;
+    width: 22vw;
     height: auto;
-    position: absolute;
-    top: 52%;
-    left: 65%;
+    margin: auto;
 }
 
 .caption {
-    position: absolute;
-    top: 80%;
-    left: 67%;
+    display: block;
     text-transform: capitalize;
     text-decoration: underline;
     color: blue;
     text-align: center;
+    margin: auto;
+    font-size: 1.75vw;
+    margin-bottom: 50px;
 }
 
 /* ----------------------------------------------- */
