@@ -175,6 +175,7 @@ p {
     text-align: justify;
     padding: 10px;
     font-size: 1em;
+    margin-left: 10px;
 }
 
 
@@ -199,7 +200,7 @@ p {
     color: blue;
     text-align: center;
     margin: auto;
-    font-size: 1.75vw;
+    font-size: 1.2vw;
     margin-bottom: 50px;
 }
 

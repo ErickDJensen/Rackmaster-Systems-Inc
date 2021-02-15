@@ -41,8 +41,8 @@
 
     .company-video iframe {
         display: block;
-        height: 400px;
-        width: 85%;
+        height: 350px;
+        width: 75%;
         order: 2;
         margin: 20px auto;
     }    
@@ -78,6 +78,7 @@
         text-align: center;
         color: blue;
         text-transform: capitalize;
+        font-size: 1em;
     }
 }
 
@@ -157,7 +158,7 @@
     .company-info {
         display: block;
         background-color: white;
-        padding: 100px 0 50px;
+        padding: 100px 0 15px;
     }
 
     .row {
@@ -180,8 +181,8 @@
     }
 
     .company-info p {
-        width: 95%;
         margin: 0 auto;
+        padding: 10px 1px;
     }
 
     .logo1 {
