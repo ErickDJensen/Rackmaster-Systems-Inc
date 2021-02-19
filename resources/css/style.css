@@ -47,6 +47,8 @@ header {
     top: 35%;
     left: 5%;
     color: white;
+    animation: backInRight;
+    animation-duration: 1.5s;
 }
 
 .rack-text-box a:link {
@@ -121,8 +123,7 @@ span {
 
 .company-video {
     background-color: white;
-    margin: 40px;
-    padding: 160px 10px 100px 10px;
+    padding: 160px 30px 100px 30px;
     display: flex;
 }
 
@@ -133,7 +134,7 @@ span {
 .company-video h2,
 p {
     text-align: center;
-    padding: 0 50px
+    padding: 0 50px;
 }
 
 .company-video p {
@@ -205,6 +206,28 @@ p {
 }
 
 /* ----------------------------------------------- */
+/* GALLERY */
+/* ----------------------------------------------- */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 160px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.item {
+    padding: 5px;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+}
+  
+  
+/* ----------------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------------- */
 
@@ -249,5 +272,7 @@ i {
 .fa-linkedin-in:hover {
     color: #0e76a8;
 }
+
+
 
 

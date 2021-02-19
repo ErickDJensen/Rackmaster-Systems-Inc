@@ -1,5 +1,17 @@
 $(document).ready(function () {
 
+
+  /* For the sticky navigation */
+  $('.js--company-video').waypoint(function (direction) {
+    if (direction == "down") {
+      $('nav').addClass('sticky');
+    } else {
+      $('nav').removeClass('sticky');
+    }
+  }, {
+    offset: '80px;'
+  });
+
   /* Navigation scroll */
   $(function () {
     $('a[href*=#]:not([href=#])').click(function () {
@@ -15,19 +27,6 @@ $(document).ready(function () {
       }
     });
   });
-
-  /* For the sticky navigation */
-  $('.js--company-video').waypoint(function (direction) {
-    if (direction == "down") {
-      $('nav').addClass('sticky');
-    } else {
-      $('nav').removeClass('sticky');
-    }
-  }, {
-    offset: '60px;'
-  });
-
-
 
 
 
