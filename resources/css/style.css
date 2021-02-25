@@ -142,9 +142,10 @@ p {
     margin-top: 10px;
 }
 
-.company-video iframe {
-    width: 90%;
-    height: 325px;
+.company-video video {
+    width: 50%;
+    height: auto;
+    outline: none;
 }
 
 
@@ -206,15 +207,16 @@ p {
 }
 
 /* ----------------------------------------------- */
-/* GALLERY */
+/* FUTURE GALLERY NAME*/
 /* ----------------------------------------------- */
 
-.gallery {
+/* .gallery {
     display: flex;
     flex-wrap: wrap;
     padding: 160px 0;
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 .item {
@@ -224,7 +226,11 @@ p {
 .gallery img {
     width: 300px;
     height: auto;
-}
+    max-height: 200px;
+    max-width: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+} */
   
   
 /* ----------------------------------------------- */

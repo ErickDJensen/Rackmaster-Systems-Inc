@@ -10,7 +10,7 @@
 
     .company-video h2, 
     p, 
-    iframe {
+    video {
         padding: 0;
     }
 
@@ -19,7 +19,7 @@
         order: 1;
     }
 
-    .company-video iframe {
+    .company-video video {
         display: block;
         height: 400px;
         width: 60%;
@@ -60,7 +60,7 @@
 
     .company-video h2, 
     p, 
-    iframe {
+    video {
         padding: 0;
     }
 
@@ -69,7 +69,7 @@
         order: 1;
     }
 
-    .company-video iframe {
+    .company-video video {
         display: block;
         height: 350px;
         width: 75%;
@@ -169,7 +169,7 @@
 
     .company-video h2, 
     p, 
-    iframe {
+    video {
         padding: 0;
     }
 
@@ -178,7 +178,7 @@
         order: 1;
     }
 
-    .company-video iframe {
+    .company-video video {
         display: block;
         height: 200px;
         width: 95%;
@@ -250,9 +250,10 @@
         color: #888;
     }
 
-    .gallery img {
+    /* For future gallery section */
+    /* .gallery img {
         width: 150px;
         height: auto;
-    }
+    } */
     
 }
